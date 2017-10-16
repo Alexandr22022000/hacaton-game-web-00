@@ -1,0 +1,23 @@
+{
+  "name": "hacaton-00",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "jsonp": "^0.2.1",
+    "pg": "7.3.0"
+  },
+  "dependencies": {
+    "body-parser": "latest"
+  }
+}

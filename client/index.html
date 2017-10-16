@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Наш сайт</title>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<img id="active-item" class="active-item">
+
+<div class="toolbar">
+    <img src="img/logo.png" class="logo">
+    <div class="toolbar__items">Главная</div>
+    <div class="toolbar__items">Об игре</div>
+    <div class="toolbar__items" id="toolbar__list-button">Список карт</div>
+    <div class="toolbar__items" id="toolbar__editor-button">Редактор карт</div>
+    <div class="toolbar__status" id="toolbar__status">Готов</div>
+</div>
+
+<div class="content" id="content">
+    <table>
+        <tr>
+            <td>
+                <div class="map" id="map"></div>
+            </td>
+            <td>
+                <div class="inv" id="inv"></div>
+                <div class="save-menu">
+                    <input id="save-menu__input" class="save-menu__input"/>
+                    <div id="save-menu__button" class="save-menu__button">Сохранить</div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="list" id="list">
+    <div class="list__item">
+        <div class="list__item-text">asdasdasdsadasd aas das asd</div>
+        <div class="list__item-del">✕</div>
+    </div>
+</div>
+</body>
+</html>
